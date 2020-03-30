@@ -1,9 +1,76 @@
+<a name="0.12.4-ghost.1"></a>
+## <small>0.12.4-ghost.1 (2020-03-12)</small>
+
+* 🐛 Fixed parser plugin handling of top-level comment nodes ([96710ce](https://github.com/bustle/mobiledoc-kit/commit/96710ce))
+* code style ([a2cbc85](https://github.com/bustle/mobiledoc-kit/commit/a2cbc85))
+* code style ([11d3c5e](https://github.com/bustle/mobiledoc-kit/commit/11d3c5e))
+* Fix link tooltips for any font ([c4a0b63](https://github.com/bustle/mobiledoc-kit/commit/c4a0b63))
+* Fixed section parser handling of markup sections inside lists ([b13bebb](https://github.com/bustle/mobiledoc-kit/commit/b13bebb))
+* Fixed spaces added by section parser from newlines in html ([ac5f673](https://github.com/bustle/mobiledoc-kit/commit/ac5f673))
+* Improved section parser handling of blockquote>p ([6229b88](https://github.com/bustle/mobiledoc-kit/commit/6229b88))
+* lint ([e18703b](https://github.com/bustle/mobiledoc-kit/commit/e18703b))
+* Make text selection test asynchronous 🔥 ([192dcb6](https://github.com/bustle/mobiledoc-kit/commit/192dcb6))
+* Restrict dom selector assertion to the qunit fixture element 🦨 ([2e2d60a](https://github.com/bustle/mobiledoc-kit/commit/2e2d60a))
+* Shrink range to only include sections with non-zero selection when toggling sections 🐔 ([071a555](https://github.com/bustle/mobiledoc-kit/commit/071a555))
+* updating model.post.trimTo && editor.post.toggleSection to ignor tail if not selected. Adding tests ([17433a0](https://github.com/bustle/mobiledoc-kit/commit/17433a0))
+* Use wait helper instead of setTimeout in async tests ([b547d4d](https://github.com/bustle/mobiledoc-kit/commit/b547d4d))
+
+
+
+<a name="0.12.3"></a>
+## <small>0.12.3 (2020-01-28)</small>
+
+* built website from 5fe628e863773b7681954646309d7a6edc5e0523 ([7b87e74](https://github.com/bustle/mobiledoc-kit/commit/7b87e74))
+* In the 0.3.2 renderer, omit empty section attribute arrays 🍭 ([c115337](https://github.com/bustle/mobiledoc-kit/commit/c115337))
+* v0.12.3 ([2cad059](https://github.com/bustle/mobiledoc-kit/commit/2cad059))
+
+
+
+<a name="0.12.2"></a>
+## <small>0.12.2 (2020-01-10)</small>
+
+* Add Editor#removeAttribute to remove section attributes 🕯 ([3b4677a](https://github.com/bustle/mobiledoc-kit/commit/3b4677a))
+* Fix demo toolbars ([56f9929](https://github.com/bustle/mobiledoc-kit/commit/56f9929))
+* v0.12.2 ([5fe628e](https://github.com/bustle/mobiledoc-kit/commit/5fe628e))
+
+
+
+<a name="0.12.1"></a>
+## <small>0.12.1 (2019-09-20)</small>
+
+* Add button in demo to toggle blockquote ([4005732](https://github.com/bustle/mobiledoc-kit/commit/4005732))
+* Add Editor#activeSectionAttributes to support toolbar state for new section attributes in mobiledoc  ([0f65798](https://github.com/bustle/mobiledoc-kit/commit/0f65798))
+* Fix #689 ([95146e0](https://github.com/bustle/mobiledoc-kit/commit/95146e0)), closes [#689](https://github.com/bustle/mobiledoc-kit/issues/689)
+* Fix #694: Alignment of a section is removed when pressing "Enter" ([4fadc60](https://github.com/bustle/mobiledoc-kit/commit/4fadc60)), closes [#694](https://github.com/bustle/mobiledoc-kit/issues/694)
+* Remove redundant CSS from demo.css ([020dee3](https://github.com/bustle/mobiledoc-kit/commit/020dee3))
+* Replace Array.find with detect utility function 🦈 ([ea54c6b](https://github.com/bustle/mobiledoc-kit/commit/ea54c6b))
+* Replace Array.includes with utility function for IE11 compat 🐲 ([5535e08](https://github.com/bustle/mobiledoc-kit/commit/5535e08))
+* Replace for..of with forEach 🥓 ([529478f](https://github.com/bustle/mobiledoc-kit/commit/529478f))
+* Replace Object.entries with utility function 🥴 ([ebed97a](https://github.com/bustle/mobiledoc-kit/commit/ebed97a))
+* Set default range for 'setAttribute' in PostEditor ([53b36d7](https://github.com/bustle/mobiledoc-kit/commit/53b36d7))
+* Specify Sauce Connect version 🐾 ([654943d](https://github.com/bustle/mobiledoc-kit/commit/654943d))
+* Update testem/sauce labs dependencies 🐄 ([105f62b](https://github.com/bustle/mobiledoc-kit/commit/105f62b))
+* v0.12.1 ([d112ec3](https://github.com/bustle/mobiledoc-kit/commit/d112ec3))
+
+
+
+<a name="0.12.0-0"></a>
+## 0.12.0-0 (2019-07-16)
+
+* Bump spec to 0.3.2, optional section attributes (#681) ([0449e15](https://github.com/bustle/mobiledoc-kit/commit/0449e15)), closes [#681](https://github.com/bustle/mobiledoc-kit/issues/681)
+* Implement Mobiledoc 0.3.2 (text alignment attribute) (continued) (#688) ([9d842fb](https://github.com/bustle/mobiledoc-kit/commit/9d842fb)), closes [#688](https://github.com/bustle/mobiledoc-kit/issues/688)
+* Remove node_modules/ path from scripts in package.json (#687) ([00a1c46](https://github.com/bustle/mobiledoc-kit/commit/00a1c46)), closes [#687](https://github.com/bustle/mobiledoc-kit/issues/687)
+* v0.12.0-0 ([35ef6de](https://github.com/bustle/mobiledoc-kit/commit/35ef6de))
+
+
+
 <a name="0.11.2-ghost.4"></a>
 ## <small>0.11.2-ghost.4 (2019-06-03)</small>
 
 * 🐛 Fixed range#expandByMarker not expanding to beginning/end of section (#677) ([0000d1d](https://github.com/bustle/mobiledoc-kit/commit/0000d1d)), closes [#677](https://github.com/bustle/mobiledoc-kit/issues/677)
 * Copy update in demo ([77de471](https://github.com/bustle/mobiledoc-kit/commit/77de471))
 * Fix sectionParser obliterating plain text content in certain circumstances (#685) ([e5f877f](https://github.com/bustle/mobiledoc-kit/commit/e5f877f)), closes [#685](https://github.com/bustle/mobiledoc-kit/issues/685)
+* v0.11.2-ghost.4 ([3b0f375](https://github.com/bustle/mobiledoc-kit/commit/3b0f375))
 
 
 
@@ -68,6 +135,7 @@
 * add tests for dom and section parser ignoring blank markup sections ([100c5fb](https://github.com/bustle/mobiledoc-kit/commit/100c5fb))
 * Added more failing tests for 648 ([2eed96e](https://github.com/bustle/mobiledoc-kit/commit/2eed96e))
 * do not group consecutive list sections of different types ([45e4d27](https://github.com/bustle/mobiledoc-kit/commit/45e4d27))
+* Ensure empty (clickable) section when no mobiledoc is given to Editor ([bcf4639](https://github.com/bustle/mobiledoc-kit/commit/bcf4639))
 * Export MOBILEDOC_VERSION & mobiledocRenderers from index ([acbb829](https://github.com/bustle/mobiledoc-kit/commit/acbb829))
 * failing test for #656 ([4bcbec6](https://github.com/bustle/mobiledoc-kit/commit/4bcbec6)), closes [#656](https://github.com/bustle/mobiledoc-kit/issues/656) [#656](https://github.com/bustle/mobiledoc-kit/issues/656)
 * failing test for section parser handling consecutive lists of varying types ([66d2120](https://github.com/bustle/mobiledoc-kit/commit/66d2120))
